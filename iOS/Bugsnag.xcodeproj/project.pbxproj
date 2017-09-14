@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A2C8F231C6BBD2300846019 /* Bugsnag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C8F181C6BBD2300846019 /* Bugsnag.framework */; };
 		8A2C8F4F1C6BBE3C00846019 /* Bugsnag.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2C8F3D1C6BBE3C00846019 /* Bugsnag.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A2C8F501C6BBE3C00846019 /* Bugsnag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F3E1C6BBE3C00846019 /* Bugsnag.m */; };
 		8A2C8F511C6BBE3C00846019 /* BugsnagBreadcrumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2C8F3F1C6BBE3C00846019 /* BugsnagBreadcrumb.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,28 +26,14 @@
 		8A2C8F6C1C6BBE9500846019 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C8F6B1C6BBE9500846019 /* SystemConfiguration.framework */; };
 		8A2C8F721C6BBEA400846019 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C8F711C6BBEA400846019 /* MessageUI.framework */; };
 		8A2C8F741C6BBEAD00846019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C8F731C6BBEAD00846019 /* UIKit.framework */; };
-		8A2C8F8F1C6BBFDD00846019 /* BugsnagBreadcrumbsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F8B1C6BBFDD00846019 /* BugsnagBreadcrumbsTest.m */; };
-		8A2C8F901C6BBFDD00846019 /* BugsnagCrashReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F8C1C6BBFDD00846019 /* BugsnagCrashReportTests.m */; };
-		8A2C8F911C6BBFDD00846019 /* BugsnagSinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F8D1C6BBFDD00846019 /* BugsnagSinkTests.m */; };
-		8A2C8F961C6BC08600846019 /* report.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C8F951C6BC08600846019 /* report.json */; };
 		8A381D4B1EAA49A700AF8429 /* BugsnagLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A381D491EAA49A700AF8429 /* BugsnagLogger.h */; };
-		8A4E733F1DC13281001F7CC8 /* BugsnagConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E733E1DC13281001F7CC8 /* BugsnagConfigurationTests.m */; };
 		8A627CD01EC2A5FD00F7C04E /* BSGSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A627CCF1EC2A5FD00F7C04E /* BSGSerialization.h */; };
 		8A627CD21EC2A62900F7C04E /* BSGSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A627CD11EC2A62900F7C04E /* BSGSerialization.m */; };
 		8A87351E1C6D2ADE00EDBD5B /* BSGKSCrashReportWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A87351D1C6D2ADE00EDBD5B /* BSGKSCrashReportWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AE1BC951DEFCE8B00D16CEF /* BugsnagConfigurationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1BC941DEFCE8B00D16CEF /* BugsnagConfigurationSpec.m */; };
 		FE1E81341F59BE0E009184AC /* KSCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB5DA221F59032800682224 /* KSCrash.framework */; };
-		FEB5DA371F59052900682224 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB5DA301F59051A00682224 /* Kiwi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A2C8F241C6BBD2300846019 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A2C8F0F1C6BBD2300846019 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A2C8F171C6BBD2300846019;
-			remoteInfo = Bugsnag;
-		};
 		FE1E81321F59BE0A009184AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FEB5DA161F59032800682224 /* KSCrash-iOS.xcodeproj */;
@@ -63,40 +48,25 @@
 			remoteGlobalIDString = 03DE7B6A1C84DEF700F789BA;
 			remoteInfo = KSCrash;
 		};
-		FEB5DA2F1F59051A00682224 /* PBXContainerItemProxy */ = {
+		FED4262D1F6AF6F200AF9856 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */;
+			containerPortal = FEB5DA161F59032800682224 /* KSCrash-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = CE87C4231AF194E900310C07;
-			remoteInfo = "Kiwi-iOS";
+			remoteGlobalIDString = CB6D132617EB749A00BC2C04;
+			remoteInfo = KSCrashLib;
 		};
-		FEB5DA311F59051A00682224 /* PBXContainerItemProxy */ = {
+		FED4262F1F6AF6F200AF9856 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */;
+			containerPortal = FEB5DA161F59032800682224 /* KSCrash-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = CE87C42D1AF194EA00310C07;
-			remoteInfo = "KiwiTests-iOS";
-		};
-		FEB5DA331F59051A00682224 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4AE02FBD1AEB45EB00556381;
-			remoteInfo = "Kiwi-OSX";
-		};
-		FEB5DA351F59051A00682224 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4AE02FC71AEB45EB00556381;
-			remoteInfo = "KiwiTests-OSX";
+			remoteGlobalIDString = EDF2BF211CCF15AD004BADF4;
+			remoteInfo = KSCrash_static;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A2C8F181C6BBD2300846019 /* Bugsnag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bugsnag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C8F1D1C6BBD2300846019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8A2C8F221C6BBD2300846019 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C8F291C6BBD2300846019 /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TestsInfo.plist; sourceTree = "<group>"; };
 		8A2C8F321C6BBD7200846019 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = SOURCE_ROOT; };
 		8A2C8F3D1C6BBE3C00846019 /* Bugsnag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bugsnag.h; path = ../Source/Bugsnag.h; sourceTree = SOURCE_ROOT; };
@@ -131,7 +101,6 @@
 		8A87351D1C6D2ADE00EDBD5B /* BSGKSCrashReportWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSGKSCrashReportWriter.h; path = ../Source/BSGKSCrashReportWriter.h; sourceTree = SOURCE_ROOT; };
 		8AE1BC941DEFCE8B00D16CEF /* BugsnagConfigurationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BugsnagConfigurationSpec.m; path = ../Tests/BugsnagConfigurationSpec.m; sourceTree = SOURCE_ROOT; };
 		FEB5DA161F59032800682224 /* KSCrash-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "KSCrash-iOS.xcodeproj"; path = "../Carthage/Checkouts/KSCrash/iOS/KSCrash-iOS.xcodeproj"; sourceTree = "<group>"; };
-		FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = ../development/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,22 +115,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A2C8F1F1C6BBD2300846019 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEB5DA371F59052900682224 /* Kiwi.framework in Frameworks */,
-				8A2C8F231C6BBD2300846019 /* Bugsnag.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8A2C8F0E1C6BBD2300846019 = {
 			isa = PBXGroup;
 			children = (
-				FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */,
 				FEB5DA161F59032800682224 /* KSCrash-iOS.xcodeproj */,
 				8A2C8F1A1C6BBD2300846019 /* Bugsnag */,
 				8A2C8F261C6BBD2300846019 /* Tests */,
@@ -174,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				8A2C8F181C6BBD2300846019 /* Bugsnag.framework */,
-				8A2C8F221C6BBD2300846019 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,19 +196,10 @@
 		FEB5DA171F59032800682224 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				FED4262E1F6AF6F200AF9856 /* libKSCrashLib.a */,
 				FE1E81331F59BE0A009184AC /* KSCrashTests.xctest */,
 				FEB5DA221F59032800682224 /* KSCrash.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FEB5DA291F59051A00682224 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FEB5DA301F59051A00682224 /* Kiwi.framework */,
-				FEB5DA321F59051A00682224 /* KiwiTests.xctest */,
-				FEB5DA341F59051A00682224 /* Kiwi.framework */,
-				FEB5DA361F59051A00682224 /* KiwiTests.xctest */,
+				FED426301F6AF6F200AF9856 /* KSCrash.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,24 +246,6 @@
 			productReference = 8A2C8F181C6BBD2300846019 /* Bugsnag.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A2C8F211C6BBD2300846019 /* Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A2C8F2F1C6BBD2300846019 /* Build configuration list for PBXNativeTarget "Tests" */;
-			buildPhases = (
-				8A2C8F1E1C6BBD2300846019 /* Sources */,
-				8A2C8F1F1C6BBD2300846019 /* Frameworks */,
-				8A2C8F201C6BBD2300846019 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A2C8F251C6BBD2300846019 /* PBXTargetDependency */,
-			);
-			name = Tests;
-			productName = BugsnagTests;
-			productReference = 8A2C8F221C6BBD2300846019 /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -325,9 +256,6 @@
 				ORGANIZATIONNAME = Bugsnag;
 				TargetAttributes = {
 					8A2C8F171C6BBD2300846019 = {
-						CreatedOnToolsVersion = 7.2.1;
-					};
-					8A2C8F211C6BBD2300846019 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -344,10 +272,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FEB5DA291F59051A00682224 /* Products */;
-					ProjectRef = FEB5DA281F59051A00682224 /* Kiwi.xcodeproj */;
-				},
-				{
 					ProductGroup = FEB5DA171F59032800682224 /* Products */;
 					ProjectRef = FEB5DA161F59032800682224 /* KSCrash-iOS.xcodeproj */;
 				},
@@ -355,7 +279,6 @@
 			projectRoot = "";
 			targets = (
 				8A2C8F171C6BBD2300846019 /* Bugsnag */,
-				8A2C8F211C6BBD2300846019 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -375,32 +298,18 @@
 			remoteRef = FEB5DA211F59032800682224 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FEB5DA301F59051A00682224 /* Kiwi.framework */ = {
+		FED4262E1F6AF6F200AF9856 /* libKSCrashLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKSCrashLib.a;
+			remoteRef = FED4262D1F6AF6F200AF9856 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FED426301F6AF6F200AF9856 /* KSCrash.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Kiwi.framework;
-			remoteRef = FEB5DA2F1F59051A00682224 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FEB5DA321F59051A00682224 /* KiwiTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KiwiTests.xctest;
-			remoteRef = FEB5DA311F59051A00682224 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FEB5DA341F59051A00682224 /* Kiwi.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Kiwi.framework;
-			remoteRef = FEB5DA331F59051A00682224 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FEB5DA361F59051A00682224 /* KiwiTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KiwiTests.xctest;
-			remoteRef = FEB5DA351F59051A00682224 /* PBXContainerItemProxy */;
+			path = KSCrash.framework;
+			remoteRef = FED4262F1F6AF6F200AF9856 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -410,14 +319,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A2C8F201C6BBD2300846019 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A2C8F961C6BC08600846019 /* report.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,27 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A2C8F1E1C6BBD2300846019 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A2C8F8F1C6BBFDD00846019 /* BugsnagBreadcrumbsTest.m in Sources */,
-				8AE1BC951DEFCE8B00D16CEF /* BugsnagConfigurationSpec.m in Sources */,
-				8A2C8F911C6BBFDD00846019 /* BugsnagSinkTests.m in Sources */,
-				8A2C8F901C6BBFDD00846019 /* BugsnagCrashReportTests.m in Sources */,
-				8A4E733F1DC13281001F7CC8 /* BugsnagConfigurationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8A2C8F251C6BBD2300846019 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A2C8F171C6BBD2300846019 /* Bugsnag */;
-			targetProxy = 8A2C8F241C6BBD2300846019 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A2C8F2A1C6BBD2300846019 /* Debug */ = {
@@ -602,28 +483,6 @@
 			};
 			name = Release;
 		};
-		8A2C8F301C6BBD2300846019 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bugsnag.BugsnagTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		8A2C8F311C6BBD2300846019 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bugsnag.BugsnagTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -641,15 +500,6 @@
 			buildConfigurations = (
 				8A2C8F2D1C6BBD2300846019 /* Debug */,
 				8A2C8F2E1C6BBD2300846019 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A2C8F2F1C6BBD2300846019 /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A2C8F301C6BBD2300846019 /* Debug */,
-				8A2C8F311C6BBD2300846019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
